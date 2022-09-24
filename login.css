@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    height: 100%;
+    background-image: linear-gradient(to right, yellow,cyan,pink);
+}
+.navbar {
+    padding: 5px 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    position: sticky;
+  background-image: linear-gradient(to right, orange,yellow,Skyblue,white,lightpink,red);
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.6);
+}
+.navbar .logo h1 {
+    color: black;
+    background-color: orange;
+  
+}
+.navbar  span {
+    color: white;
+    background-color: black;
+    padding-bottom: 1px;
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a {
+    display: block;
+    margin-left: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.navbar .menu li a:hover {
+    border-bottom: 4px black;
+    transition: 0.5s;
+
+}
+.navbar .menu li a i {
+    color: orange;
+
+}
+.login-btn {
+    color: black !important;
+    border: 1px gray;
+    border-radius: 100px;
+    padding: 6px 7px;
+    background-color: lightpink;
+    font-weight: bold !important;
+}
+ 
+/* content */
+
+.sign-up {
+    width: 300px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    background: orange;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+.sign-up h1{
+     color: black;
+     margin-bottom: 30px;
+     
+}
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    outline: none; 
+    cursor: pointer;
+}
+button a {
+    color: white;
+}
+.check {
+    cursor: pointer;
+}
+.sign {
+    background-color: black;
+}
+.sign:hover {
+    color: orange;
+}
+.sign-with {
+    background-color: black;
+
+}
+.sign-with:hover {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+}
+hr {
+    margin-top: 20px;
+    width: 100%;
+}
+.or {
+    background-color: black;
+    width: 30px;
+    margin: -12px auto 10px;
+    color: white;
+}
+
+img {
+    width: 100px;
+    margin-top: -80px;
+}
